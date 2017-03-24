@@ -33,12 +33,13 @@ body {
   -ms-border-radius: 20px;
   display: inline-block;
 }
-.left {
+.right {
   margin: 10px 0 10px 40px;
   background-color: blue;
   color: white;
+  text-align: left;
 }
-.right {
+.left {
   margin: 10px 40px 10px 0;
   background-color: lightgray;
 }
