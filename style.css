@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+#messages {
+  height: 90%;
+  overflow: auto;
+}
+.text-right {
+  text-align: right;
+}
+.message {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  display: inline-block;
+}
+.left {
+  margin: 10px 0 10px 40px;
+  background-color: gray;
+}
+.right {
+  margin: 10px 40px 10px 0;
+  background-color: blue;
+}
+input {
+  width: 100%;
+}
