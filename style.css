@@ -6,17 +6,16 @@ body {
   height: 100%;
   position: relative;
 }
-#messages,
+#messages {
+  position: relative;
+  height: calc(100% - 70px);
+  overflow: auto;
+}
 #bottom {
   position: absolute;
   width: 100%;
   left: 0;
   right: 0;
-}
-#messages {
-  max-height: calc(100% - 70px);
-  overflow: auto;
-  bottom: 70px;
 }
 #bottom {
   height:70px;
