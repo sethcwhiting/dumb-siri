@@ -23,7 +23,7 @@ function answer() {
 
   var htmlOpen = '<div><div class="message left">';
   var htmlClose = '</div></div>';
-  var answer = 'No.'
+  var answer = 'No.';
   $('#messages').append(htmlOpen + answer + htmlClose);
 
 };
